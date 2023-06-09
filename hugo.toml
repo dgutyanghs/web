@@ -1,0 +1,30 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = "Donnie's Blog"
+theme = 'mainroad'
+#theme = 'ananke'
+paginate = "10" # Number of posts per page
+
+[Author] # Used in authorbox
+    name = "Donnie"
+    bio = "Fear can hold you prison, hope can set you free."
+    avatar = "img/avatar.png"
+
+[params]
+    mainSections = ['blog', 'docs', 'post']
+    postSections = ['post']
+
+#[Params.logo]
+#  image = "img/placeholder.png" # Logo image. Path relative to "static"
+#  title = "Mainroad" # Logo title, otherwise will use site title
+#  subtitle = "Just another site" # Logo subtitle
+#
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
