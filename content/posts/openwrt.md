@@ -6,8 +6,8 @@ draft: true
 
 # Openwrt 科学上网镜像的思考
 ##  网友LEAN开源的源码仓库
-编译方法按github提供即可[点击访问](https://github.com/coolsnowwolf/lede){:target="_blank"}。
-需要注意的是它源码不带科学上网工具，如passwall, Helloworld, openclash等，需要你手动下载。工具地址[点击访问](https://github.com/kenzok8/openwrt-packages){:target="_blank"}
+编译方法按github提供即可[点击访问](https://github.com/coolsnowwolf/lede)。
+需要注意的是它源码不带科学上网工具，如passwall, Helloworld, openclash等，需要你手动下载。工具地址[点击访问](https://github.com/kenzok8/openwrt-packages)
 
 优点：开源透明，自由选择性高。
 缺点：编译过程对一般人来说，有一定的难度。
@@ -15,7 +15,7 @@ draft: true
 
 ## KoolCenter团队的源码仓库
 即原来的KoolShare团队，在ASUS-Merlin上开发出Koolshare版本，但拒绝遵守GPL协议，不开源。
-istoreOS[点击访问](https://github.com/istoreos){:target="_blank"}属于易有云网络科技有限责任公司运营的项目，以提供openwrt软件中心iStore为推广点，插件下载升级方便。
+istoreOS[点击访问](https://github.com/istoreos)属于易有云网络科技有限责任公司运营的项目，以提供openwrt软件中心iStore为推广点，插件下载升级方便。
 软件中心在提供给你的方便同时，安全性存疑。
 
 
